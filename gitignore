@@ -1,0 +1,172 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Tridentstick",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentstick"
+    },
+    {
+      "name": "Tridenttoprecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridenttoprecipe"
+    },
+    {
+      "name": "Tridentstickrecipe1",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentstickrecipe_1"
+    },
+    {
+      "name": "Tridentstickrecipe2",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentstickrecipe_2"
+    },
+    {
+      "name": "Tridentstickrecipe3",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentstickrecipe_3"
+    },
+    {
+      "name": "Tridentstickrecipe4",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentstickrecipe_4"
+    },
+    {
+      "name": "Tridentcrafting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentcrafting"
+    },
+    {
+      "name": "TridentTop",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trident_top"
+    },
+    {
+      "name": "TridentForgottenstructure",
+      "type": "structure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trident_forgottenstructure"
+    },
+    {
+      "name": "SuperGiganticTrident",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_gigantic_trident"
+    },
+    {
+      "name": "Special200downloadsstructure",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "special_200downloadsstructure"
+    },
+    {
+      "name": "Tridentspherefortress",
+      "type": "structure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tridentspherefortress"
+    },
+    {
+      "name": "MutatedTridentForgottenStructure",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mutated_trident_forgotten_structure"
+    },
+    {
+      "name": "MutatedSuperGiganticTrident",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mutated_super_gigantic_trident"
+    },
+    {
+      "name": "MutatedSpecial15KStructure",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mutated_special_15_k_structure"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.tridentcraftingstructuresfabric.trident_top": "Trident Top",
+      "item.tridentcraftingstructuresfabric.tridentstick": "Tridentstick"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tridentcraftingstructuresfabric",
+    "modName": "TridentCrafting\u0026StructuresFabric",
+    "version": "1.2",
+    "description": "New Structures \u0026 3D Models",
+    "author": "hir0shiyt",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.5",
+    "credits": "Created by hir0shiyt, visit my modpage : https://www.curseforge.com/members/hir0shiyt/projects",
+    "modElementsPackage": "net.mcreator.tridentcraftingstructuresfabric",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
