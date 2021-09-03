@@ -1,0 +1,7 @@
+{
+  "parent": "tridentcraftingstructuresfabric:custom/trident_top_3d_model",
+  "textures": {
+    "0": "tridentcraftingstructuresfabric:blocks/trident_top3d_model",
+    "particle": "tridentcraftingstructuresfabric:items/trident_top"
+  }
+}

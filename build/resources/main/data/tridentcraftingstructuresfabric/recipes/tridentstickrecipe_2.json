@@ -1,0 +1,42 @@
+{
+  "group": "tridentcraftingstructuresfabric",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "1": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "2": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "3": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "6": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "7": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "8": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "item": "tridentcraftingstructuresfabric:tridentstick",
+    "count": 1
+  }
+}
