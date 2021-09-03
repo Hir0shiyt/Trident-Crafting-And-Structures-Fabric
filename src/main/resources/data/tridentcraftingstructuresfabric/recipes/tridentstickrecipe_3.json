@@ -1,0 +1,42 @@
+{
+  "group": "tridentcraftingstructuresfabric",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "1": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "2": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "3": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "6": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "7": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "8": {
+      "item": "minecraft:nautilus_shell"
+    }
+  },
+  "result": {
+    "item": "tridentcraftingstructuresfabric:tridentstick",
+    "count": 1
+  }
+}
