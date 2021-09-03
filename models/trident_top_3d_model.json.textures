@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "trident_top3d_model"
+      },
+      "name": "default"
+    }
+  }
+}
