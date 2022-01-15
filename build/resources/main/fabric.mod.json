@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "tridentcraftingstructuresfabric",
-  "version": "1.2",
+  "version": "1.4",
   "name": "TridentCrafting&StructuresFabric",
-  "description": "New Structures & 3D Models",
+  "description": "New loot tables, structures and more",
   "authors": [
     "hir0shiyt"
   ],

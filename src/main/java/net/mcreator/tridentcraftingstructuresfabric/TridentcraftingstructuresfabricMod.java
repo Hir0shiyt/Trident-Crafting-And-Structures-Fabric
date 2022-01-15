@@ -19,13 +19,14 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.item.Item;
 
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.TridentspherefortressStructure;
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.TridentForgottenstructureStructure;
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.SuperGiganticTridentStructure;
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.Special200downloadsstructureStructure;
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.MutatedTridentForgottenStructureStructure;
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.MutatedSuperGiganticTridentStructure;
-import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.MutatedSpecial15KStructureStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.TridentwardensstructuresStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.TridentwardensstructureStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.PrismaspherefortressStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.PrismaboatStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.MutatedtridentwardensstructureStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.MutatedgiantfallingtridentStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.GiantfallingtridentStructure;
+import net.mcreator.tridentcraftingstructuresfabric.world.gen.feature.GiantconduitStructure;
 import net.mcreator.tridentcraftingstructuresfabric.item.TridentstickItem;
 import net.mcreator.tridentcraftingstructuresfabric.item.TridentTopItem;
 
@@ -36,16 +37,18 @@ public class TridentcraftingstructuresfabricMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final Item Tridentstick_ITEM = Registry.register(Registry.ITEM, id("tridentstick"), new TridentstickItem());
 	public static final Item TridentTop_ITEM = Registry.register(Registry.ITEM, id("trident_top"), new TridentTopItem());
+
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing TridentcraftingstructuresfabricMod");
-		TridentForgottenstructureStructure.init();
-		SuperGiganticTridentStructure.init();
-		Special200downloadsstructureStructure.init();
-		TridentspherefortressStructure.init();
-		MutatedTridentForgottenStructureStructure.init();
-		MutatedSuperGiganticTridentStructure.init();
-		MutatedSpecial15KStructureStructure.init();
+		TridentwardensstructuresStructure.init();
+		GiantfallingtridentStructure.init();
+		TridentwardensstructureStructure.init();
+		MutatedtridentwardensstructureStructure.init();
+		MutatedgiantfallingtridentStructure.init();
+		PrismaspherefortressStructure.init();
+		PrismaboatStructure.init();
+		GiantconduitStructure.init();
 		CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
 		});
 	}
